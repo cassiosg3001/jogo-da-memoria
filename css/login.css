@@ -1,0 +1,68 @@
+#caixa{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.login{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+    
+
+}
+.identificar{
+    border: 1px solid gray ;
+    height: 50px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    width: 100vh;
+    max-width:300px ;
+    align-items: center;
+    align-content: center;
+    display: flex;
+    outline: none;
+    padding: 10px;
+    border: 1px solid black;
+
+}
+.play{
+    border: 1px solid black;
+    height: 50px;
+    background-color: green;
+    width: 100vh;
+    max-width: 150px;
+    border-radius: 20px;
+    padding: 10px;
+    cursor: pointer;
+    color: white;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.play:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
+  }
+  .play:active {
+    transform: translateY(2px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+    .play:disabled{
+    background-color: gray;
+    margin: 1px solid black;
+    height: 50px;
+    color: azure;
+    cursor: auto;
+    border: 1px solid black;
+    }
+.logo{
+    height: 200px;
+    width: 200px;
+    margin: 25px 25px 25px;
+}
+html{
+    background-color: gray;
+}
